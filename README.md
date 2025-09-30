@@ -7,6 +7,7 @@ This project demonstrates a Terraform-automated deployment of a secure Azure env
 <br>
 <br>
 
+![Diagram](architecture_no_public_ip.png)
 
 ---
 
@@ -176,3 +177,20 @@ Destroy resources -optional (terraform destroy)
 <br>
 
 ![web app domain](Learning_App_Web_App.png)
+
+---
+
+Conclusion:
+<br>
+<br>
+This project demonstrates how to design and deploy a secure, automated, and scalable cloud architecture on Azure by combining:
+
+    Infrastructure as Code (Terraform) for repeatable, version-controlled deployments
+
+    Azure App Service integrated with GitHub for continuous delivery of application code
+
+    Linux VM with MySQL bootstrapped via cloud-init for hands-off database provisioning
+
+    Private VNet + NSGs enforcing least-privilege communication and blocking public exposure
+
+By bringing these components together, the project highlights not only technical depth in cloud infrastructure and security, but also an automation-first mindset
