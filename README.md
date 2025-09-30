@@ -9,7 +9,7 @@ This project demonstrates a Terraform-automated deployment of a secure Azure env
 
 ---
 
-The solution highlights how to:
+The solution highlights:
 
 Automate infrastructure with Terraform
 
@@ -66,6 +66,17 @@ Configured for both remote TCP connections and localhost access
 <br>
 <br>
 ![MySql](01_SQL.png)
+
+---
+
+The Azure Web App is connected directly to this GitHub repository via Terraform:
+<br>
+
+???
+
+This ensures that updates pushed to the main branch of the repo are automatically pulled into the App Service.
+
+The application folder (containing the .NET frontend app) provides the code that gets deployed to the Web App. Terraform provisions the infra, while GitHub serves as the source of truth for the application code.
 
 ---
 
