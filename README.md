@@ -5,7 +5,7 @@ Project Overview
 This project demonstrates a Terraform-automated deployment of a secure Azure environment where a Windows-based Azure Web App connects privately to a Linux Virtual Machine hosting a MySQL database.
 <br>
 <br>
-![web app domain](Learning_App_Web_App.png)
+
 
 ---
 
@@ -172,3 +172,6 @@ Apply deployment(terraform apply "main.tfplan")
 Access the App (Terraform outputs the Web App URL after deployment. Open it in a browser to confirm connectivity with the MySQL database.)
 <br>
 Destroy resources -optional (terraform destroy)
+<br>
+
+![web app domain](Learning_App_Web_App.png)
