@@ -31,7 +31,7 @@ Azure Web App (Windows App Service): Hosts the frontend web application
 
 Virtual Network (VNet): Provides private communication between app and database
 
-NSGs: Restrict MySQL access to only the Web App subnet (port 3306)
+NSGs: Restrict MySQL access to only the Web App subnet 
 
 Public Internet Traffic: Only the Web App is exposed; the database is not directly accessible
 
@@ -43,11 +43,26 @@ Resources Created:<br>
 ![All Resources](All_Resources.png)<br>
 
 <br>
+
 ---
 
-📸 Demo & Screenshots
+Database Setup (MySQL):
 
-(Add screenshots of your portal, VNet settings, NSG, and successful database connection here.)
+SQL Initialization Script (01.sql) provisions:
+
+appdb database and Course table
+
+Inserts seed data:
+
+Docker & Kubernetes (⭐ 4.5)
+
+AZ-204 Azure Developer (⭐ 4.6)
+
+AZ-104 Administrator (⭐ 4.7)
+
+Creates least-privilege user appusr with role-based access
+
+Configured for both remote TCP connections and localhost access
 
 ---
 
@@ -57,7 +72,7 @@ Database locked down to VNet-only traffic
 
 Web App private tunneling via VNet integration (no public DB access)
 
-NSGs restrict traffic (only port 3306 + SSH for admin)
+NSGs restrict traffic 
 
 Terraform automation ensures repeatability and no manual drift
 
