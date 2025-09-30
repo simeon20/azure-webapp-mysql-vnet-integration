@@ -40,7 +40,9 @@ Public Internet Traffic: Only the Web App is exposed; the database is not direct
 Resources Created:<br>
 <br>
 <br>
+![All Resources](All_Resources.png)<br>
 
+<br>
 ---
 
 📸 Demo & Screenshots
