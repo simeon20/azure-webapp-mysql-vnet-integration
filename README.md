@@ -143,4 +143,14 @@ Azure Virtual Networking & NSGs
 Secure cloud architecture patterns
 
 ---
+Terraform Configuration Files:
+<br>
+[main](main_tf.png)<br>
+[locals](locals_tf.png)<br>
+[Webb App Network Deployment](APP_Network_Deployment_tf.png)<br>
+[Database Config](db_Config_tf.png)<br>
+[Database deployment](db_deployment_tf.png)<br>
+[Terraform](Terraform_tf.png)<br>
+[variables](variables_tf.png)<br>
+[Terraform Var](Terraform_tf_vars.png)<br>
 
