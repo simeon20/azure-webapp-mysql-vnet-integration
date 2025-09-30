@@ -44,6 +44,8 @@ Resources Created:<br>
 
 <br>
 
+![Apply](Apply_Complete.png)
+
 ---
 
 Database Setup (MySQL):
