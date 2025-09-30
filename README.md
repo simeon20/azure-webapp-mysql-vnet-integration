@@ -154,3 +154,21 @@ Terraform Configuration Files:
 [variables](variables_tf.png)<br>
 [Terraform Var](Terraform_tf_vars.png)<br>
 
+
+---
+
+Terraform Instructions:
+<br>
+Authenticate with Azure: (az login, az account set --subscription "your-subscription-id")
+<br>
+Initialize Terraform (terraform init)
+<br>
+Validate configuration (terraform validate)
+<br>
+Plan deployment (terraform plan -out main.tfplan)
+<br>
+Apply deployment(terraform apply "main.tfplan")
+<br>
+Access the App (Terraform outputs the Web App URL after deployment. Open it in a browser to confirm connectivity with the MySQL database.)
+<br>
+Destroy resources -optional (terraform destroy)
