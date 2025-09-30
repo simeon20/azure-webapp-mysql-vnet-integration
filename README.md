@@ -44,7 +44,10 @@ Resources Created:<br>
 
 <br>
 
-![Apply](Apply_Complete.png)
+[Linux Overview](Linux_VM_Overview.png)
+
+<br>
+
 
 ---
 
