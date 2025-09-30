@@ -63,6 +63,9 @@ AZ-104 Administrator (⭐ 4.7)
 Creates least-privilege user appusr with role-based access
 
 Configured for both remote TCP connections and localhost access
+<br>
+<br>
+![MySql](01_SQL.png)
 
 ---
 
