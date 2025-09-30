@@ -25,17 +25,15 @@ Deploy a public-facing app that communicates securely with a backend database
 
 Architecture
 
-Terraform IaC: Automates resource creation (VM, Web App, VNet, NSG, etc.)
+Terraform IaC to provision all core Azure resources (Resource Group, VNet, Subnets, NSGs, App Service Plan, Web App, and Linux VM).
 
-Linux VM (Ubuntu): Runs the MySQL server
+Linux VM (Ubuntu) hosting a MySQL database, bootstrapped automatically with cloud-init.
 
-Azure Web App (Windows App Service): Hosts the frontend web application
+Azure App Service (Windows) running the frontend application, integrated directly with GitHub for source control and continuous delivery.
 
-Virtual Network (VNet): Provides private communication between app and database
+Private VNet + NSGs ensuring only the Web App subnet can access MySQL (port 3306) while blocking public access.
 
-NSGs: Restrict MySQL access to only the Web App subnet 
-
-Public Internet Traffic: Only the Web App is exposed; the database is not directly accessible
+End-to-end architecture demonstrating a real-world pattern: public-facing app ↔ private database backend.
 
 ---
 
