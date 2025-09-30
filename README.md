@@ -1,6 +1,7 @@
 Azure Windows Web App with Private MySQL on Linux VM (Terraform Automated)
 <br>
-Project Overview
+<br>
+Project Overview:
 
 This project demonstrates a Terraform-automated deployment of a secure Azure environment where a Windows-based Azure Web App connects privately to a Linux Virtual Machine hosting a MySQL database.
 <br>
