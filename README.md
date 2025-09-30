@@ -79,7 +79,7 @@ This ensures that updates pushed to the main branch of the repo are automaticall
 The application folder (containing the .NET frontend app) provides the code that gets deployed to the Web App. Terraform provisions the infra, while GitHub serves as the source of truth for the application code.
 <br>
 
-[Application folder](learningapp.png)
+[Application folder](learningapp)
 
 ---
 
