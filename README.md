@@ -94,6 +94,13 @@ Web App private tunneling via VNet integration (no public DB access)
 NSGs restrict traffic 
 
 Terraform automation ensures repeatability and no manual drift
+<br>
+
+[Web App Overview ](Webapp_Resource_Overview.png)<br>
+[Web App deployment center](webapp_Deployment_center.png)<br>
+[Web App deployment center logs](webapp_Deployment_Center_logs.png)<br>
+[Integration](Webapp_Resource_Networking_Virtual_Network_Integration.png)<br>
+[Connection String](Webapp_Resource_Environment_Variables.png)<br>
 
 ---
 
