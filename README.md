@@ -37,7 +37,9 @@ Public Internet Traffic: Only the Web App is exposed; the database is not direct
 
 ---
 
-🛠️ Steps Implemented Step 1: VM & Database Setup
+Resources Created:<br>
+<br>
+<br>
 
 ---
 
