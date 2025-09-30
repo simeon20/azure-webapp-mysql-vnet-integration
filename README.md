@@ -43,7 +43,6 @@ Resources Created:<br>
 ![All Resources](All_Resources.png)<br>
 
 <br>
-
 ---
 
 Database Setup (MySQL):
@@ -66,6 +65,22 @@ Configured for both remote TCP connections and localhost access
 <br>
 <br>
 ![MySql](01_SQL.png)
+
+---
+
+Cloud-Init Automation (MySQL Bootstrap):
+<br>
+?????
+
+Installs and configures MySQL server on the Linux VM.
+
+Secures the root account with a strong password.
+
+Configures MySQL to listen only on the private VNet IP.
+
+Restarts MySQL and automatically runs the initialization script (01.sql).
+
+Ensures the database, tables, seed data, and least-privilege user are created on first boot.
 
 ---
 
