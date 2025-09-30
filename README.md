@@ -80,6 +80,8 @@ The application folder (containing the .NET frontend app) provides the code that
 <br>
 
 [Application folder](learningapp)
+<br>
+[Web Deployment](web_deployment_tf.png)
 
 ---
 
