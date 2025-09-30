@@ -72,7 +72,7 @@ Configured for both remote TCP connections and localhost access
 The Azure Web App is connected directly to this GitHub repository via Terraform:
 <br>
 
-???
+![Github](Github_azure_webapp_mysql_vnet_integration.png)
 
 This ensures that updates pushed to the main branch of the repo are automatically pulled into the App Service.
 
