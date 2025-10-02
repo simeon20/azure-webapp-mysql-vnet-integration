@@ -27,7 +27,7 @@ Architecture
 
 Terraform IaC to provision all core Azure resources (Resource Group, VNet, Subnets, NSGs, App Service Plan, Web App, and Linux VM).
 
-Linux VM (Ubuntu) hosting a MySQL database, bootstrapped automatically with cloud-init.
+Linux VM (Ubuntu) hosting a MySQL database, bootstrapped automatically with cloud-init (launching data when the machine starts).
 
 Azure App Service (Windows) running the frontend application, integrated directly with GitHub for source control and continuous delivery.
 
